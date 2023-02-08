@@ -22,7 +22,7 @@ public class DBHandler {
         try {
             return DriverManager.getConnection("jdbc:mysql://localhost:3306/medialibrary",
                     "root",
-                    "1548from5Kaal"
+                    ""
             );
         }
         catch (SQLException e){
